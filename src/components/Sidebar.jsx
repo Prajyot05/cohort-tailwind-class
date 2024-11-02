@@ -7,11 +7,11 @@ const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Home', icon: faHome, href: '#home' },
-    { name: 'Webinars', icon: faUsers, href: '#webinars' },
-    { name: 'Billing', icon: faCreditCard, href: '#billing' },
-    { name: 'User Management', icon: faUser, href: '#user-management' },
-    { name: 'Settings', icon: faCog, href: '#settings' },
+    { name: 'Home', icon: faHome },
+    { name: 'Webinars', icon: faUsers },
+    { name: 'Billing', icon: faCreditCard },
+    { name: 'User Management', icon: faUser },
+    { name: 'Settings', icon: faCog },
   ];
 
   return (
@@ -47,7 +47,7 @@ const Sidebar = () => {
               }`}
             >
               <span>{item.name}</span>
-              <a href={item.href} className="flex items-center space-x-3">
+              <a href="#" className="flex items-center space-x-3">
                 <FontAwesomeIcon
                   icon={item.icon}
                   className={`w-6 h-6 ${activeItem === item.name ? 'text-blue-900' : 'text-gray-400'}`}
