@@ -11,7 +11,7 @@ const webinars = [
 
 const WebinarList = () => {
   return (
-    <div style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}} className="mx-auto w-[70%] bg-white rounded-lg p-5">
+    <div style={{boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}} className="mx-auto w-full scale-[0.85] sm:scale-100 lg:w-[70%] bg-white rounded-lg p-5">
       <div className="flex items-center justify-between p-1 rounded-sm mb-4 border-b bg-[#F5F6F9]">
         <div className="flex items-center space-x-2 text-gray-600">
             <FontAwesomeIcon icon={faCalendar} />

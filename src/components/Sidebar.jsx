@@ -24,7 +24,7 @@ const Sidebar = () => {
       </button>
 
       <div
-        className={`fixed lg:static top-0 left-0 h-full w-[16rem] bg-white border-r-2 border-gray-200 p-6 flex flex-col transform ${
+        className={`fixed lg:static top-0 left-0 h-full w-[18rem] bg-white border-r-2 border-gray-200 py-6 pl-6 pr-3 flex flex-col transform ${
           isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
         } lg:translate-x-0 transition-transform duration-300 ease-in-out z-20`}
       >
